@@ -1,0 +1,37 @@
+{
+  "name": "@roachlab/validator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roachlab/validator.git"
+  },
+  "author": "Vladyslav Stasiuk <https://github.com/vladstsk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roachlab/validator/issues"
+  },
+  "homepage": "https://github.com/roachlab/validator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "babel-jest": "^28.1.0",
+    "esbuild": "^0.14.39",
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0",
+    "rollup": "^2.73.0",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-esbuild": "^4.9.1",
+    "typescript": "^4.6.4"
+  }
+}
